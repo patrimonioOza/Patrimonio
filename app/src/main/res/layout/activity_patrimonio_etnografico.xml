@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#2BAF26"
+    tools:context=".patrimonio_etnografico">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/boton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="CRUCEIRO DE TRIBALDES" />
+
+            <Button
+                android:id="@+id/boton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="BURGA DE XERMEADE" />
+
+            <Button
+                android:id="@+id/boton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="CRUCEIRO GÓTICO DE FRANCOS" />
+
+            <Button
+                android:id="@+id/boton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="MARCO MEDIAVAL DO PORTO, LAMPAI" />
+
+            <Button
+                android:id="@+id/boton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PONTE MEDIEVAL DE PONTEVEA" />
+
+            <Button
+                android:id="@+id/boton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PONTE PARADELA" />
+
+            <Button
+                android:id="@+id/boton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="ANTIGA POUSADA DE SAN ANTONIÑO DE AREEIRA" />
+
+            <Button
+                android:id="@+id/boton19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="ESCOLA DE FRANCOS" />
+
+            <Button
+                android:id="@+id/boton20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PONTE MEDIEVAL E LAVADOIRO SOBRE O RÍO TINTO" />
+
+            <Button
+                android:id="@+id/boton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="LAVADOIRO DE FRANCOS" />
+
+            <Button
+                android:id="@+id/boton22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PONTE COLGANTE DO XIRIMBAO" />
+
+            <Button
+                android:id="@+id/boton23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="LAVADOIRO DA CASALONGA" />
+
+            <Button
+                android:id="@+id/boton24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="FONTE E LAVADOIRO DA FLORIDA" />
+
+            <Button
+                android:id="@+id/boton25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="NÚCLEO TRADICIONAL DE PONTEVEA" />
+
+            <Button
+                android:id="@+id/boton26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PONTE NOVA EN RARÍS" />
+
+            <Button
+                android:id="@+id/boton27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="TÚNEL DO FARAMELLO" />
+
+            <Button
+                android:id="@+id/boton28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="FONTE ESCOLA DA CASALONGA" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

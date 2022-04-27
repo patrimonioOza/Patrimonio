@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ermidaCruceiroDeSantaEufemia">
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/logoteo"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+                <ImageView
+                    android:id="@+id/hamburguesa"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburguesa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descripcionBreve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="casual"
+                android:text="No lugar de Ribas, na parroquia de Oza, atópase esta capela que honra á Santa Eufemia e que é unha das ermidas máis visitadas do Concello."
+
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="330dp"
+                android:layout_height="209dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/ermidaecruceirodesantaeufemia" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:text="Hai unha fermosa e antiga lenda galega que conta a historia dun parto múltiple sucedido en Baiona. Trátase de nove meniñas destinadas a morrer afogadas, pero que se salvaron, converténdose nas primeiras grandes santas e mártires da Igrexa. Santa Eufemia foi unha desas mártires que goza de moita tradición e devoción tanto en Galicia como en Portugal. \n \n
+A documentación histórica do Arquivo da Catedral revela a existencia desta ermida desde o ano 1547, consagrada a Santa Eufemia como mínimo desde 1775, sendo daquela a confraría máis importante da zona. O 16 de setembro é o día no que se conmemora esta beata, por iso, todos os anos, na fin de semana que segue a esa data, celébrase a romaría de Santa Eufemia, a onde centos de persoas devotas acoden a escoitar unha misa como ofrenda. \n \n
+A carón da capela atópase un cruceiro barroco, trasladado nos anos 80 dende o seu lugar orixinario ao ser este o lugar elixido para o campo da festa, e no que se le unha inscrición co nome do doante: GOMEZ A(NO) 1768. \n \n
+O Padre Pedro Nolasco Gaite Sancho foi un mercedario vinculado ó Mosteiro de Poio, que percorreu boa parte do noso territorio durante as primeiras décadas do século pasado cativando cos seus sermóns a miles de persoas freguesas das parroquias do rural galego. Os xornais da época deron conta da súa oratoria e elocuencia, mais poucos recollen datos da súa faceta como debuxante e catalogador de moitos monumentos que visitou. Hoxe consérvanse preto de 200 debuxos dos templos da Galiza máis tradicional, algúns deles desaparecidos ou moi alterados. Estes debuxos do Santuario de Santa Eufemia testemuñan o paso deste relixioso viaxeiro por esta parroquia de Oza.\n"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/instagram" />
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animamaps"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

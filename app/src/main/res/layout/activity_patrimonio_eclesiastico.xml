@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrimonio_eclesiastico">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/botonCasaReitoralDeBamonde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="CASA REITORAL DE BAMONDE" />
+
+        <Button
+            android:id="@+id/botonIgrexaCruceiroDeSantaMariaDeBamonde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXIA DE CRUCEIRO DE SANTA MARÍA DE BAMONDE" />
+
+        <Button
+            android:id="@+id/botonCapelaDeSantaAnaDeLampai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="CAPELA DE SANTA ANA DE LAMPAI" />
+
+        <Button
+            android:id="@+id/botonCapelaCruceiroDoEspiritoSanto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="CAPELA E CRUCEIRO DO ESPÍRITO SANTO" />
+
+        <Button
+            android:id="@+id/botonIgrexaDeSantaMariaDeLampai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXA DE SANTA MARÍA DE LAMPAI" />
+
+        <Button
+            android:id="@+id/botonIgrexaDeSanMiguelDeRaris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXA DE SAN MIGUEL DE RARÍS" />
+
+        <Button
+            android:id="@+id/botonErmidaCruceiroDeSantaEufemia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="ERMIDA E CRUCEIRO DE SANTA EUFEMIA" />
+
+        <Button
+            android:id="@+id/botonIgrexaDeSantaMariaDeLuou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXA DE SANTA MARÍA DE LUOU" />
+
+        <Button
+            android:id="@+id/botonIgrexaDeSantaMariaDeTeo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXA DE SANTA MARÍA DE TEO" />
+
+        <Button
+            android:id="@+id/botonIgrexadeSanSimonDeOnsCacheiras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="IGREXA DE SAN SIMÓN DE ONS, CACHEIRAS" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrimonio_arqueoloxico">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/botonMarcoDaAgrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="MARCO DA AGRELA" />
+
+        <Button
+            android:id="@+id/botonAreaArqueoloxicaDoMontePiquinho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="ÁREA ARQUEOLÓXICA DO MONTE PIQUIÑO" />
+
+        <Button
+            android:id="@+id/botonPetroglifoDaPenaBicudaDeLoureiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="PETRÓGLIFO DA PENA BICUDA DE LOUREIRO" />
+
+        <Button
+            android:id="@+id/botonPetroglifoDoOuteiroDoCorno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="Petróglifo do Outeiro do Corno" />
+
+        <Button
+            android:id="@+id/botonPetroglifoDoRioAngueiraOuDoMonteDeCornide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BAF26"
+            android:text="Petróglifo do Río Angueira ou do Monte de Cornide" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".petroglifoDoOuteiroDoCorno">
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/logoteo"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+                <ImageView
+                    android:id="@+id/hamburguesa"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburguesa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descripcionBreve"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="casual"
+                android:text="Está situado ao carón dun camiño próximo á aldea de Regoufe, na parroquia de Luou. Encóntrase sinalizado e forma parte do PRG-238, Ruta dos Petróglifos de Teo.\n \n "
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="330dp"
+                android:layout_height="209dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/petroglifodoouteirodocorno" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:text="Outeiro do Corno é un dos petróglifos máis excepcionais do Concello de Teo. A importancia do panel vén do feito de contar cun tipo de representación moi escasa no territorio galaico.  O motivo central é unha figura de forma case cadrada, deseñada con dobre trazo. No extremo superior aparecen seis pequenos círculos colocados en fila e o espazo interior do cadrado é ocupado por unha liña en zigzag que divide o motivo en 7 faixas horizontais. Á esquerda da figura obsérvase unha arma, probablemente un puñal polo pequeno tamaño, coa punta cara abaixo. Segundo algúns autores podería tratarse dunha representación humana moi esquemática, dun individuo poderoso, probablemente un guerreiro, acompañado por algún dos seus atributos (puñal, espada ou alabarda).  \n \n
+Nunha zona inferior da rocha, separado por unha greta natural aparece tamén a figura bastante erosionada dun cuadrúpede mirando cara á dereita, do que non é posible identificar a especie. \n \n
+O momento máis recomendable para observar o motivo principal é a primeiras horas da mañá e pola tardiña. O resto das figuras presentan un maior nivel de desgaste e son apreciables sobre todo de noite con axuda de luz artificial.\n \n"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/instagram" />
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animamaps"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

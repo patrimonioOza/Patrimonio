@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".casaReitoralDeBamonde">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/logoteo"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+                <ImageView
+                    android:id="@+id/hamburguesa"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburguesa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descripcionBreve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="casual"
+                android:text="Situada fronte á igrexa de Bamonde, esta antiga casa reitoral marca o inicio da Ruta da Batalla de Cacheiras.\n"
+
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="330dp"
+                android:layout_height="209dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/casareitoraldebamonde" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="40dp"
+                android:text="Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\n
+Quixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\n
+Dende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.\n"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    app:srcCompat="@drawable/instagram" />
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animamaps"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
