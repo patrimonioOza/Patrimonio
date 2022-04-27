@@ -110,7 +110,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="2dp"
                     android:layout_weight="4"
-                    android:background="@drawable/animatwitter"
+                    android:background="@drawable/animafacebook"
                    />
 
                 <!--  app:srcCompat="@drawable/twitter_1_"-->
