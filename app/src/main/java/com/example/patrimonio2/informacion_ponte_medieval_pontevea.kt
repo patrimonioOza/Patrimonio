@@ -33,7 +33,7 @@ class informacion_ponte_medieval_pontevea : AppCompatActivity() {
                 Intent(
                     Intent.ACTION_VIEW,
                     Uri.parse("https://www.instagram.com/turismoteo/")
-                /*comentario1*/
+                /*comentario2*/
                 )
             )
         }
