@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionEscolaFrancos"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Á beira do cruceiro e carballeira de Francos, e no trazado do Camiño Portugués, este edificio ten a tipoloxía das escolas de ensino primario durante a República. Agora convertida en Casa Común, que alberga actividades socioculturais do Concello.\n
@@ -71,15 +71,26 @@
 
             <TextView
                 android:id="@+id/descripcionEscolaFrancos"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text=" A escola foi unha escola mixta onde estudaban unha media de 30 nenas e nenos e no piso superior estaba a vivenda do mestre ou mestra. A desafectación do uso educativo da antiga escola de Francos, integrada no CRA, foi aprobada pola Consellaría de Educación en xuño do 2013 e é no ano seguinte cando se aproba o seu uso sociocultural.\n
+                android:text=" A escola foi unha escola mixta onde estudaban unha media de 30 nenas e nenos e no piso superior estaba a vivenda do mestre ou mestra.\n \n  A desafectación do uso educativo da antiga escola de Francos, integrada no CRA, foi aprobada pola Consellaría de Educación en xuño do 2013 e é no ano seguinte cando se aproba o seu uso sociocultural.\n
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -89,34 +100,42 @@
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -129,6 +148,17 @@
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 
@@ -142,3 +172,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

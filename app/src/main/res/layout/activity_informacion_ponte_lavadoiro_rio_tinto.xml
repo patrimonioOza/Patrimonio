@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionPonteLavadoiroRioTinto"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Conxunto de arquitectura tradicional moi empregado pola veciñanza da zona como lavadoiro e tamén zona de baño.\n
@@ -72,18 +72,29 @@
 
             <TextView
                 android:id="@+id/descripcionPonteLavadoiroRioTinto"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="A Ponte da Pedreira forma, xunto co lavadoiro situado no propio río, un importante conxunto de arquitectura popular. Trátase dunha ponte de orixe medieval que inicialmente só posuía un único arco de medio punto lixeiramente apuntado. As reformas posteriores ampliaron a antiga ponte de cantaría situada sobre o río Tinto. \n
+                android:text="A Ponte da Pedreira forma, xunto co lavadoiro situado no propio río, un importante conxunto de arquitectura popular. Trátase dunha ponte de orixe medieval que inicialmente só posuía un único arco de medio punto lixeiramente apuntado. As reformas posteriores ampliaron a antiga ponte de cantaría situada sobre o río Tinto. \n \n
 
 Sobre o propio leito do río atópanse unhas laxas de pedra colocadas de xeito case vertical que serviron ás mulleres da zona para lavar a roupa sobre o propio curso do río. Cada unha das 5 ou 6 pedras que había eran de propiedade privada pero con frecuencia cedíanse para que as usaran outras mulleres. Despois do lavado, aproveitábanse as leiras que estaban cerca para clarear a roupa. \n
 
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -93,34 +104,40 @@ Sobre o propio leito do río atópanse unhas laxas de pedra colocadas de xeito c
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -133,6 +150,17 @@ Sobre o propio leito do río atópanse unhas laxas de pedra colocadas de xeito c
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 

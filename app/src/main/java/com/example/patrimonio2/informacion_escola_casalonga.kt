@@ -12,24 +12,29 @@ class informacion_escola_casalonga : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_informacion_escola_casalonga)
 
-        val facebook = findViewById<ImageView>(R.id.facebook)
+        val facebook = findViewById<ImageButton>(R.id.facebook_3_)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-        val twitter = findViewById<ImageView>(R.id.twitter)
+        val twitter = findViewById<ImageButton>(R.id.twitter_4_)
         twitter.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
         }
 
-        val instagram = findViewById<ImageView>(R.id.instagram)
+        val instagram = findViewById<ImageButton>(R.id.instagram_3_)
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
 
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir//ESCOLA+DE+CASALONGA,+Cami%C3%B1o+de+Riotinto,+15866,+A+Coru%C3%B1a/@42.8249116,-8.6097584,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd2f025979dd1713:0x4c379990a110970d!2m2!1d-8.6111683!2d42.8243081")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/42%C2%B048'54.5%22N+8%C2%B037'19.1%22W/@42.8151251,-8.624168,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb763a8e60fa1d8f6!8m2!3d42.8151251!4d-8.6219793")))
+        }
+
+        val informacion = findViewById<ImageView>(R.id.informacion)
+        informacion.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
     }
 }

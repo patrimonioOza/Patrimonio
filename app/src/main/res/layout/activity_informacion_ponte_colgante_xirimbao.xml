@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionPonteColganteXirimbao"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Pasarela de aceiro que se atopa no Couto de Pesca do Couso.\n
@@ -72,20 +72,30 @@
 
             <TextView
                 android:id="@+id/descripcionPonteColganteXirimbao"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="Construída no 1960, a pasarela do Xirimbao chámase “Pasarela Mariola” debido ao seu enxeñeiro Darque. A ponte, unha das máis longas e altas de Galicia une as parroquias de Couso, na Estrada e a de Reis, en Teo.\n
+                android:text="Construída no 1960, a pasarela do Xirimbao chámase “Pasarela Mariola” debido ao seu enxeñeiro Darque. A ponte, unha das máis longas e altas de Galicia une as parroquias de Couso, na Estrada e a de Reis, en Teo.\n \n
 
-Este enxeñeiro foi enviado polo ministerio na década dos 60 para acometer a mellora e mantemento do couto do Couso, entre A Estrada e Teo, que acouta un tramo de 800 metros do Ulla entre a Presa de Couso e 100 metros abaixo da Pedra Fernández no linde inferior. Entre as novas melloras no couto de pesca inclúe a construción desta pasarela que bautiza con citado nome na honra dunha familiar súa chamada Mariola Paves Curbelo.\n
+Este enxeñeiro foi enviado polo ministerio na década dos 60 para acometer a mellora e mantemento do couto do Couso, entre A Estrada e Teo, que acouta un tramo de 800 metros do Ulla entre a Presa de Couso e 100 metros abaixo da Pedra Fernández no linde inferior. Entre as novas melloras no couto de pesca inclúe a construción desta pasarela que bautiza con citado nome na honra dunha familiar súa chamada Mariola Paves Curbelo.\n \n
 
 É posible a visita (tomando as medidas de seguridade debidamente indicadas nos paneis informativos da entrada) pois actualmente está aberta durante a temporada de pesca, que vai de maio ata setembro. O resto do ano péchanse as portas por seguridade e mantemento.\n
 
 
-" />
+"               android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -95,34 +105,41 @@ Este enxeñeiro foi enviado polo ministerio na década dos 60 para acometer a me
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -135,6 +152,17 @@ Este enxeñeiro foi enviado polo ministerio na década dos 60 para acometer a me
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 

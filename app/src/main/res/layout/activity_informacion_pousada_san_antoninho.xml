@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionPousadaSanAntoniño"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Ademais de ser antiga pousada para persoas peregrinas, a estatua de San Antonino foi obxecto de culto da veciñanza: “San Antoniño da Areeira é un santo moi milagroso, canso se perde un porquiño, a corbata ten ao pescozo”.\n
@@ -71,17 +71,28 @@
 
             <TextView
                 android:id="@+id/descripcionPousadaSanAntoniño"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="Esta edificación foi, no século XVIII, unha das pousadas que acollían a persoas arrieiras e peregrinas (Sarmiento, 1754), hoxe reconvertida nunha casa de labranza tradicional. Na parede orientada ó camiño aínda se conserva a estatua policromada de San Antoniño Abade, padroeiro dos animais, representado como un vello ancián co hábito da orde e cun porquiño ós seus pés.\n
+                android:text="Esta edificación foi, no século XVIII, unha das pousadas que acollían a persoas arrieiras e peregrinas (Sarmiento, 1754), hoxe reconvertida nunha casa de labranza tradicional. Na parede orientada ó camiño aínda se conserva a estatua policromada de San Antoniño Abade, padroeiro dos animais, representado como un vello ancián co hábito da orde e cun porquiño ós seus pés.\n  \n
 
 Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para obter o favor do santiño e sandar os seus animais enfermos. Na parroquia consérvanse importantes coplas populares que lembran a tradicional rivalidade coa parroquia veciña de Biduído, así di unha das cantigas “San Antonio de Areeira anda no monte co gando, a virxe de Biduído ándallo recadando”.\n
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -91,34 +102,41 @@ Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -131,6 +149,17 @@ Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 
@@ -141,6 +170,4 @@ Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para
     <!--
     </ScrollView>
     -->
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

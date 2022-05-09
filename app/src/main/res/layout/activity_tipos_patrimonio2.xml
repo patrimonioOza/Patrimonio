@@ -6,40 +6,123 @@
     android:layout_height="match_parent"
     tools:context=".tipos_patrimonio">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints">
+    <ImageButton
+        android:id="@+id/botonTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teo_con_nombre" />
 
-        <Button
-            android:id="@+id/boton2"
+
+
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#2BAF26"
-            android:text="PATRIMONIO NATURAL" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/boton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#2BAF26"
-            android:text="PATRIMONIO ETNOGRÁFICO" />
+            <TextView
+                android:id="@+id/patrimonio"
+                android:layout_width="191dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="PATRIMONIO "
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/boton4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#2BAF26"
-            android:text="PATRIMONIO ECLESIÁSTICO" />
 
-        <Button
-            android:id="@+id/boton5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#2BAF26"
-            android:text="PATRIMONIO ARQUEOLÓXICO" />
-    </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/boton2"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="patrimonio_natural"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/miradoiro_na_pena_de_agrela1" />
+
+            <ImageButton
+                android:id="@+id/boton3"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="patrimonio etnográfico"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/tunel_do_faramello1" />
+
+            <Button
+                android:id="@+id/boton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PATRIMONIO ECLESIÁSTICO"
+                app:iconTint="#4CAF50" />
+
+            <Button
+                android:id="@+id/boton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF26"
+                android:text="PATRIMONIO ARQUEOLÓXICO" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
