@@ -74,6 +74,11 @@
                 android:id="@+id/boton2"
                 android:layout_width="match_parent"
                 android:layout_height="287dp"
+
+
+
+
+
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
@@ -108,6 +113,7 @@
 
             <Button
                 android:id="@+id/boton5"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#2BAF26"
