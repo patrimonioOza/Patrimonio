@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionFonteLavadoiroFlorida"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Fonte brasonada da Florida, na parroquia de Rarís, icona do Camiño xacobeo da Geira e dos Arrieiros.\n
@@ -72,20 +72,31 @@
 
             <TextView
                 android:id="@+id/descripcionPonteNovaRaris"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="Construído na Florida (Rarís), este lavadoiro consta dunha fonte de dous canos e un pequeno pío con cinco pedras de lavar a roupa. Os canos da fonte saen dun muro ameado e adornado cun escudo de armas en relevo, soportado por unha cruz de Calatrava e timbrado por un helmo pechado, que amosa no seu campo pleno un castelo coroado flanqueado por dous paxaros voando.\n
+                android:text="Construído na Florida (Rarís), este lavadoiro consta dunha fonte de dous canos e un pequeno pío con cinco pedras de lavar a roupa. Os canos da fonte saen dun muro ameado e adornado cun escudo de armas en relevo, soportado por unha cruz de Calatrava e timbrado por un helmo pechado, que amosa no seu campo pleno un castelo coroado flanqueado por dous paxaros voando.\n  \n
 
 
 
 Trátase dun elemento patrimonial moi relevante no Camiño da Geira e dos Arrieros. A mesa de pedra que acompaña ao conxunto presenta uns impoñentes pés que non pasan desapercibidos, reciclaxe dun antigo casal desaparecido.\n
 
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -95,34 +106,43 @@ Trátase dun elemento patrimonial moi relevante no Camiño da Geira e dos Arrier
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
+
+
+
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -135,6 +155,17 @@ Trátase dun elemento patrimonial moi relevante no Camiño da Geira e dos Arrier
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 
@@ -148,3 +179,4 @@ Trátase dun elemento patrimonial moi relevante no Camiño da Geira e dos Arrier
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

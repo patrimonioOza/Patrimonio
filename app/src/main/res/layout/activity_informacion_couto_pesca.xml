@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionCoutoPescaXirimbao"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Trátase dun tramo do Río Ulla ao seu paso polo Xirimbao, na parroquia de Reis, onde a práctica da pesca está regulada en réxime de pesca sen morte.\n
@@ -71,21 +71,32 @@
 
             <TextView
                 android:id="@+id/descripcionCoutoPescaXirimbao"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="Situado no curso do río Ulla (protexida pola Rede Natura 2000) e coñecido como o Couto de Couso, xa que toma o seu nome da parroquia do veciño Concello da Estrada, atópase o Xirimbao, que está acoutado no réxime de pesca sen morte. Construído nos anos 40 do pasado século veu transformar unha das pesqueiras tradicionais do Ulla nunha presa para facilitar a práctica deportiva do salmón, mudando por completo a fisionomía deste treito do río, que permanece ata os nosos días.\n
+                android:text="Situado no curso do río Ulla (protexida pola Rede Natura 2000) e coñecido como o Couto de Couso, xa que toma o seu nome da parroquia do veciño Concello da Estrada, atópase o Xirimbao, que está acoutado no réxime de pesca sen morte. Construído nos anos 40 do pasado século veu transformar unha das pesqueiras tradicionais do Ulla nunha presa para facilitar a práctica deportiva do salmón, mudando por completo a fisionomía deste treito do río, que permanece ata os nosos días.\n \n
 
-O seu límite superior é a presa e o inferior está 100 m abaixo da Pedra de Fernández. En total, 800 m dun couto que pertence a Teo e A Estrada. Ten 6 permisos diarios.\n
+O seu límite superior é a presa e o inferior está 100 m abaixo da Pedra de Fernández. En total, 800 m dun couto que pertence a Teo e A Estrada. Ten 6 permisos diarios.\n \n
 
-Completa este conxunto piscícola un refuxio de pescadores e un centro de precintaxe. Chama a atención na actualidade o tamaño que alcanzan dúas sequoias (Secuoia sempervivens) plantadas nas inmediacións do dito refuxio a principios da década dos 60, que alcanzan os 5 metros, de porte piramidal e gran valor ornamental. \n
+Completa este conxunto piscícola un refuxio de pescadores e un centro de precintaxe. Chama a atención na actualidade o tamaño que alcanzan dúas sequoias (Secuoia sempervivens) plantadas nas inmediacións do dito refuxio a principios da década dos 60, que alcanzan os 5 metros, de porte piramidal e gran valor ornamental. \n \n
 
-O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemento de miles de persoas de toda a comarca, debido, en gran parte, á existencia dunha área recreativa contigua e tamén á apertura, en temporada de pesca, da Ponte Mariola. Na marxe do río, o Couto de Couso está atravesada pola Ruta da Lamprea do Ulla.\n
+O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemento de miles de persoas de toda a comarca, debido, en gran parte, á existencia dunha área recreativa contigua e tamén á apertura, en temporada de pesca, da Ponte Mariola. Na marxe do río, o Couto de Couso está atravesada pola Ruta da Lamprea do Ulla.\n  \n
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -95,34 +106,40 @@ O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemen
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -135,6 +152,17 @@ O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemen
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 
@@ -148,3 +176,4 @@ O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemen
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

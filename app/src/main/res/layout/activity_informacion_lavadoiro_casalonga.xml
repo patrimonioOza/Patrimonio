@@ -50,10 +50,10 @@
 
             <TextView
                 android:id="@+id/breveDescripcionLavadoiroCasalonga"
-                android:layout_width="329dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="casual"
                 android:text="Fonte e lavadoiro tradicional asentado no núcleo da Casalonga que serviu ao longo do tempo como lugar de encontro da veciñanza.\n
@@ -71,21 +71,32 @@
 
             <TextView
                 android:id="@+id/descripcionLavadoiroCasalonga"
-                android:layout_width="328dp"
-                android:layout_height="481dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="A fonte da Casalonga é unha fonte construída nos anos 30 do século pasado. O lavadoiro constrúese no ano 1953 xunto con outros 11 máis espallados por todo o termo municipal ó abeiro dunha subvención do Goberno Civil. En 1984 o Concello atende a unha petición da veciñanza e instalan o teito. A última actuación é de 2017 cando se volve a restaurar e se retira o tellado.\n
+                android:text="A fonte da Casalonga é unha fonte construída nos anos 30 do século pasado. O lavadoiro constrúese no ano 1953 xunto con outros 11 máis espallados por todo o termo municipal ó abeiro dunha subvención do Goberno Civil. En 1984 o Concello atende a unha petición da veciñanza e instalan o teito. A última actuación é de 2017 cando se volve a restaurar e se retira o tellado.\n  \n
 
-Este tipo de infraestruturas foron moi importantes no pasado, antes de haber auga da traída nas vivendas. Eran un lugar de recollida de agua, tarefa levada a cabo esencialmente por mulleres, que con caldeiros ou coa sella, carretaban varias veces ao día auga para as persoas e tamén os animais.\n
+Este tipo de infraestruturas foron moi importantes no pasado, antes de haber auga da traída nas vivendas. Eran un lugar de recollida de agua, tarefa levada a cabo esencialmente por mulleres, que con caldeiros ou coa sella, carretaban varias veces ao día auga para as persoas e tamén os animais.\n  \n
 
 Actualmente mantense a tradición de recollida de auga e segue a ser un lugar de encontro da veciñanza.\n
 
 
 
-" />
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -95,34 +106,41 @@ Actualmente mantense a tradición de recollida de auga e segue a ser un lugar de
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/facebook"
+                <ImageButton
+                    android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/facebook" />
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
 
-                <ImageView
-                    android:id="@+id/twitter"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
-                    app:srcCompat="@drawable/twitter" />
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
 
-                <ImageView
-                    android:id="@+id/instagram"
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:tint="#7F000000"
-                    app:srcCompat="@drawable/instagram" />
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -135,6 +153,17 @@ Actualmente mantense a tradición de recollida de auga e segue a ser un lugar de
                     android:background="@drawable/animaps"
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
             </LinearLayout>
 
 
