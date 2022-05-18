@@ -56,10 +56,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Pedra granítica que se empregou para acoutar terreos na época medieval."
+                android:textColor="#415419"
+                android:text="@string/marcodaagrelaTitulo"
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -77,9 +77,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Situada na aldea da Agrela, en Lampai, trátase dunha Pedra de granito colocada verticalmente, de 133 cm de altura visible, 50 cm de anchura na base e 35 cm na parte superior, e un grosor máximo de 20 cm, bastante regular en toda a pedra. \n \n
-O acabado tan regular que presenta toda a pedra, con trazos moi claros de fractura bastante antiga, xunto coa súa colocación nunha posición preeminente con respecto a unha ampla portela, e a presenza dun gravado na cara Sur, apuntan cara a posibilidade de que se trate dun marco de acoutamento medieval, que ao igual que o Marco Porto de Lampai, delimitaría un basto terreo que no ano 1156, o emperador Afonso VII e boa parte da aristocracia e da Igrexa da Coroa de Castela realiza a Sancho Eanes, un plebeo, pola súa gratitude nas súas batallas na Reconquista. \n \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/marcodaagrelaDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

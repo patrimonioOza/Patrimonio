@@ -103,7 +103,7 @@ tools:context=".patrimonio_natural">
             android:scaleType="fitXY"
             android:foreground="?android:attr/selectableItemBackground"
             android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesantamariadelampaitit" />
+            app:srcCompat="@drawable/capeladesantaanadelampaitit" />
 
         <ImageButton
             android:id="@+id/botonCapelaCruceiroDoEspiritoSanto"
