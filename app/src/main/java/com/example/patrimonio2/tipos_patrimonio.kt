@@ -21,13 +21,13 @@ class tipos_patrimonio : AppCompatActivity() {
             val accederPatrimonioEtnográfico = Intent(this, patrimonio_etnografico::class.java)
             startActivity(accederPatrimonioEtnográfico)
         }
-        val boton4 = findViewById<Button>(R.id.boton4)
+        val boton4 = findViewById<ImageButton>(R.id.boton4)
         boton4.setOnClickListener {
             val accederPatrimonioEclesiastico = Intent(this, patrimonio_eclesiastico::class.java)
             startActivity(accederPatrimonioEclesiastico)
         }
 
-        val boton5 = findViewById<Button>(R.id.boton5)
+        val boton5 = findViewById<ImageButton>(R.id.boton5)
         boton5.setOnClickListener {
             val accederPatrimonioArqueoloxico = Intent(this, patrimonio_arqueoloxico::class.java)
             startActivity(accederPatrimonioArqueoloxico)

@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/layout/activity_patrimonio_arqueoloxico.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/layout/activity_patrimonio_eclesiastico.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/layout/activity_patrimonio_etnografico.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/layout/activity_patrimonio_natural2.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Alex/Desktop/Patrimonio/app/src/main/res/layout/activity_tipos_patrimonio2.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/Alex/Downloads/PATRIMONIO2/PATRIMONIO2/app/src/main/res/drawable/animafacebook.xml" value="0.2975" />
         <entry key="..\:/Users/Alex/Downloads/PATRIMONIO2/PATRIMONIO2/app/src/main/res/drawable/animainsta.xml" value="0.3095" />
         <entry key="..\:/Users/Alex/Downloads/PATRIMONIO2/PATRIMONIO2/app/src/main/res/drawable/animamaps.xml" value="0.1" />
