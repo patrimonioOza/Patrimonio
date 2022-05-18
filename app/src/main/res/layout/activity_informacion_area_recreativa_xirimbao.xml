@@ -51,11 +51,11 @@
             <TextView
                 android:id="@+id/breveDescripcionAreaRecreativaXirimbao"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
+                android:textColor="#000000"
                 android:text="Zona recreativa ás beiras do río Ulla con acceso a varias rutas de sendeirismo e servizos necesarios para pasar un día de merenda.\n
 "
                 android:textSize="18sp" />
@@ -72,7 +72,7 @@
             <TextView
                 android:id="@+id/descripcionAreaRecreativaXirimbao"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -91,13 +91,14 @@ Toda a beira do Ulla é coñecida polas persoas afeccionadas á pesca. A carón 
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
-
 
 
             <LinearLayout

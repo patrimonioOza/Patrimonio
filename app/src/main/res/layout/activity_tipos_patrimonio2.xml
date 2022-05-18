@@ -94,7 +94,7 @@
                 android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/tunel_do_faramello1" />
+                app:srcCompat="@drawable/tunel_do_faramelllo1" />
 
             <ImageButton
                 android:id="@+id/boton4"
