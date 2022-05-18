@@ -55,7 +55,7 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
                 android:text="S. Beira do río Ulla ao seu paso polo Concello de Teo que conta con protección ambiental europea.\n"
-                android:textColor="#000000"
+                android:textColor="#415419"
                 android:textSize="18sp" />
 
             <ImageView
