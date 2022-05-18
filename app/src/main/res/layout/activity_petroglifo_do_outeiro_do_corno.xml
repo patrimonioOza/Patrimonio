@@ -56,10 +56,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Está situado ao carón dun camiño próximo á aldea de Regoufe, na parroquia de Luou. Encóntrase sinalizado e forma parte do PRG-238, Ruta dos Petróglifos de Teo.\n \n "
+                android:textColor="#415419"
+                android:text="@string/petroglifodoouteirodocornoTitulo"
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -77,10 +77,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Outeiro do Corno é un dos petróglifos máis excepcionais do Concello de Teo. A importancia do panel vén do feito de contar cun tipo de representación moi escasa no territorio galaico.  O motivo central é unha figura de forma case cadrada, deseñada con dobre trazo. No extremo superior aparecen seis pequenos círculos colocados en fila e o espazo interior do cadrado é ocupado por unha liña en zigzag que divide o motivo en 7 faixas horizontais. Á esquerda da figura obsérvase unha arma, probablemente un puñal polo pequeno tamaño, coa punta cara abaixo. Segundo algúns autores podería tratarse dunha representación humana moi esquemática, dun individuo poderoso, probablemente un guerreiro, acompañado por algún dos seus atributos (puñal, espada ou alabarda).  \n \n
-Nunha zona inferior da rocha, separado por unha greta natural aparece tamén a figura bastante erosionada dun cuadrúpede mirando cara á dereita, do que non é posible identificar a especie. \n \n
-O momento máis recomendable para observar o motivo principal é a primeiras horas da mañá e pola tardiña. O resto das figuras presentan un maior nivel de desgaste e son apreciables sobre todo de noite con axuda de luz artificial.\n \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/petroglifodoouteirodocornoDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

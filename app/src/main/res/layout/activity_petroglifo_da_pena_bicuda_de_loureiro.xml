@@ -56,10 +56,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Localizada en Loureiro, na parroquia de Luou, este petróglifo atópase sinalizado e forma parte do PRG-238, Ruta dos Petróglifos de Teo."
+                android:textColor="#415419"
+                android:text="@string/petroglifodapenabicudadeloureiroTitulo"
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -77,10 +77,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="A Pedra Bicuda de Loureiro é un dos petróglifos máis interesantes do territorio de Compostela rupestre pola cantidade, variedade de motivos representados e por localizarse na área arqueolóxica do Monte Piquiño, un dos espazos de maior densidade de xacementos arqueolóxicos do territorio, onde se rexistran 10 estacións rupestres, unhas 30 mámoas e 2 posibles círculos líticos. \n \n
-Os gravados sitúanse sobre un afloramento de granito, na ladeira dun outeiro coñecido como Pedra Bicuda. O lugar é un excelente miradoiro natural, cunha impresionante visibilidade sobre o val do Ulla e fitos xeográficos destacados como o Pico Sacro, Monte Meda, Castro Valente ou a Pena da Grela. \n \n
-As figuras representadas son tanto círculos como cazoletas, espirais, zoomorfos…. A rocha está bastante alterada mais distínguese relativamente ben a gran combinación circular que ocupa o centro do panel e varios círculos concéntricos situados en zonas máis periféricas. A posición da rocha fai que o mellor momento para ver os gravados sexa a primeiras horas da mañá, aproveitando a luz rasante do sol. Porén, boa parte dos motivos só resultan perceptibles de noite coa axuda da luz artificial.\n \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/petroglifodapenabicudadeloureiroDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

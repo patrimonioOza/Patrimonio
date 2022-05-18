@@ -56,11 +56,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Instalada no núcleo de Rarís, esta igrexa agocha encantos tanto no interior como no exterior."
+                android:textColor="#415419"
+                android:text="@string/igrexadesanmiguelderarisTitulo"
 
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -78,9 +78,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Na súa parte externa destaca a presenza dunhas pinturas murais de cronoloxía descoñecida. Parte do mural esta cuberto por unha capa de encalado que co paso do tempo segundo se foi desprendendo este material foron aparecendo as figuras humanas que compoñen as escenas de temática pouco clara. No mural norte apréciase o que parece Xesucristo resucitado, identifícase pola chaga da man esquerda e a do costado dereito. Pola disposición das figuras que parece desordenada e sen continuación pola parte superior, dáse a entender que estes perpiaños foron o aproveitamento dunha construción anterior.\n \n
-No seu interior atópase unha figura representado o arcanxo San Miguel que tivo gran devoción dende o Medievo como o gran xefe dos exércitos de Deus en loita contra o mal (Apocalipse 12, 7-9). Represéntase como cabaleiro alado, con cota de malla, bacinete, espada e escudo coa lenda. Aos pés o Demo/Satanás derrotado ao longo da batalla. Cristianización do mercurio romano, convértese tamén no mensaxeiro do ceo e condutor dos mortos. \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+
+                android:text="@string/igrexadesanmiguelderarisDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

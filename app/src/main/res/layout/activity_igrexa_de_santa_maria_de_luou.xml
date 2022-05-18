@@ -56,11 +56,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Situada nunha encrucillada de camiños na parroquia de Luou, A Igrexa dálle nome ao núcleo de vivendas que a rodean.\n"
+                android:textColor="#415419"
+                android:text="@string/igrexadesantamariadeluouTitulo"
 
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -78,11 +78,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="A actual igrexa está asentada onde estivo a Capela de Santa Margarida que fora trasladada dende Loureiro pero que pronto se quedou pequena polo que o cura e a veciñanza decidiron construír unha nova. O proceso de construción da igrexa como a coñecemos hoxe en día foi un proceso longo, de moitos anos e reformas. Comeza coa reforma da capela dende o ano 1788 que se inicia a construción ata o ano 1832 onde se remata. \n \n
-A igrexa actual de Santa María de Luou data do segundo terzo do século XIX. A torre foi construída polos mestres canteiros Francisco Casal e Juan Casal. Este tamén construíu a igrexa de Bamonde e a capela de Santa Eufemia de Oza ámbalas dúas tamén no concello de Teo. No ano 1872 un raio destrúe a torre da Igrexa de Luou das campás para arriba e foi reedificada un ano máis tarde como da fe un cuadrante solar colocado no costado sur da Igrexa. \n \n
-Nas inmediacións da Igrexa de Santa María de Luou atópase a fonte da Santa Margarida, datada do 1816 e onde é frecuente, sobre todo no mes de xullo, atopar xente “lavando os males” ao ser esta santa avogosa dos males e enfermidades da pel. \n \n
-Tamén nas inmediacións está o edificio do “Sindicato de agricultores e gandeiros de Luou” construído no 1905 con fondos das persoas do lugar emigradas en América e que foi e é un centro de dinamización cultura da parroquia. \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/igrexadesantamariadeluouDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

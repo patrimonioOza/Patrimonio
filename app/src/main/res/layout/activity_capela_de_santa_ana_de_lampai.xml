@@ -57,8 +57,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Pequena capela de pedra na aba do monte á entrada do Pico da Agrela."
+                android:textColor="#415419"
+
+                android:text="@string/capeladesantaanadelampaiTitulo"
 
                 android:textAlignment="center"
                 android:textSize="18sp" />
@@ -79,13 +80,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="40dp"
-                android:text="Na parte alta da aldea da Agrela (Lampai) e nun recuncho da antiga carballeira na aba do monte, atópase esta pequena ermida de planta rectangular feita a base de perpiaños. Unha obra de cantaría popular de boa feitura na que salienta o seu pórtico coa bancada corrida e armazón de madeira sostido por catro columnas. \n \n
-No lintel da porta principal figura unha inscrición que di:\n
-Esta obra la izo\n
-Iban (co) Perez de Nra\n
-Señora del Carme. Año de 1772\n"
+                android:textColor="#000000"
+                android:text="@string/capeladesantaanadelampaiDescripcion"
 
-                android:fontFamily="sans-serif"
                 android:textSize="14sp" />
 
             <LinearLayout

@@ -57,11 +57,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="De estilo barroco foi construída polo Mestre Manuel Varela. Esta igrexa foi rematada o 6 de decembro do 1787, aínda que aberta ó culto en 1785.\n"
+                android:textColor="#415419"
+                android:text="@string/igrexaecruceirodesantamariadebamondeTitulo"
 
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -79,10 +79,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\n
-Quixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\n
-Dende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.\n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/igrexaecruceirodesantamariadebamondeDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
