@@ -13,7 +13,11 @@
  -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,8 +46,8 @@
                     android:id="@+id/hamburguesa"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/hamburguesa" />
             </LinearLayout>
@@ -61,8 +65,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"></LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
@@ -70,12 +94,12 @@
                     android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
                     android:background="@drawable/animafacebook"
-                    app:srcCompat="@drawable/facebook_3_" />
+                    app:srcCompat="@drawable/facebook_3_"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/twitter_4_"
@@ -87,8 +111,7 @@
                     android:background="@drawable/animatwitter"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/twitter_4_"
-                    app:tint= "#00B8AEAE"/>
-
+                    app:tint="#00B8AEAE" />
 
                 <ImageButton
                     android:id="@+id/instagram_3_"
@@ -97,10 +120,9 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
                     android:background="@drawable/animainsta"
                     app:srcCompat="@drawable/instagram_3_"
-                    />
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -118,16 +140,13 @@
                     android:id="@+id/informacion"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="-100dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/informacion"
                     app:tint="#7F000000" />
             </LinearLayout>
-
-
-
 
 
         </LinearLayout>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
     <!--
     <ScrollView
@@ -28,7 +28,6 @@
                 android:orientation="horizontal">
 
 
-
                 <ImageView
                     android:id="@+id/logoteo"
                     android:layout_width="80dp"
@@ -42,8 +41,8 @@
                     android:id="@+id/hamburguesa"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/hamburguesa" />
             </LinearLayout>
@@ -51,14 +50,14 @@
             <TextView
                 android:id="@+id/breveDescripcionMarcoMedievalPorto"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
                 android:text="Pedra granítica que se empregou para acoutar terreos na época medieval.\n
 
 "
+                android:textColor="#000000"
                 android:textSize="18sp" />
 
             <ImageView
@@ -73,7 +72,7 @@
             <TextView
                 android:id="@+id/descripcionMarcoMedievalPorto"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -86,22 +85,24 @@ O texto íntegro da inscrición podería transcribirse así: “Era MCXCIV et qu
 
 "
                 android:textColor="#000000"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal">
 
@@ -109,12 +110,12 @@ O texto íntegro da inscrición podería transcribirse así: “Era MCXCIV et qu
                     android:id="@+id/facebook_3_"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
                     android:background="@drawable/animafacebook"
-                    app:srcCompat="@drawable/facebook_3_" />
+                    app:srcCompat="@drawable/facebook_3_"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/twitter_4_"
@@ -126,7 +127,7 @@ O texto íntegro da inscrición podería transcribirse así: “Era MCXCIV et qu
                     android:background="@drawable/animatwitter"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/twitter_4_"
-                    app:tint= "#00B8AEAE"/>
+                    app:tint="#00B8AEAE" />
 
 
                 <ImageButton
@@ -136,10 +137,9 @@ O texto íntegro da inscrición podería transcribirse así: “Era MCXCIV et qu
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    app:tint="#7F000000"
                     android:background="@drawable/animainsta"
                     app:srcCompat="@drawable/instagram_3_"
-                    />
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/maps"
@@ -157,14 +157,13 @@ O texto íntegro da inscrición podería transcribirse así: “Era MCXCIV et qu
                     android:id="@+id/informacion"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="-100dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/informacion"
                     app:tint="#7F000000" />
             </LinearLayout>
-
 
 
         </LinearLayout>

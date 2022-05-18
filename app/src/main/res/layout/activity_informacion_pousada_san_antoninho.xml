@@ -51,11 +51,11 @@
             <TextView
                 android:id="@+id/breveDescripcionPousadaSanAntoniño"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
+                android:textColor="#000000"
                 android:text="Ademais de ser antiga pousada para persoas peregrinas, a estatua de San Antonino foi obxecto de culto da veciñanza: “San Antoniño da Areeira é un santo moi milagroso, canso se perde un porquiño, a corbata ten ao pescozo”.\n
 "
                 android:textSize="18sp" />
@@ -72,7 +72,7 @@
             <TextView
                 android:id="@+id/descripcionPousadaSanAntoniño"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -87,10 +87,12 @@ Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 

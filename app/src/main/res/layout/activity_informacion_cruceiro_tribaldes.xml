@@ -51,11 +51,11 @@
             <TextView
                 android:id="@+id/breveDescripcionCruceiroTribaldes"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
+                android:textColor="#000000"
                 android:text="Sinxelo cruceiro emprazado no camiño sacramental que conduce ao igrexario de Bamonde
 "
                 android:textSize="18sp" />
@@ -72,7 +72,7 @@
             <TextView
                 android:id="@+id/descripcionCruceiroTribaldes"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -89,10 +89,12 @@ O cruceiro posúe un pedestal cuadrangular, varal octogonal e remata nunha cruz 
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 

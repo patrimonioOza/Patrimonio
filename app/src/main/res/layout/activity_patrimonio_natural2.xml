@@ -76,7 +76,7 @@
                 android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/miradoiro_do_cumio_de_montouto_e_pena_escorrid_a0" />
+                app:srcCompat="@drawable/miradoiro_do_cumio_de_montouto_e_pena_escorredia0" />
 
             <ImageButton
                 android:id="@+id/boton5"
@@ -118,7 +118,7 @@
                 android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/sistema_fluvial_ulla_deza__rede_natura_2000_0" />
+                app:srcCompat="@drawable/sistema_fluvial_ulla_deza_rede_natura_2000_0" />
 
             <ImageButton
                 android:id="@+id/boton8"
@@ -180,7 +180,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="70dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />

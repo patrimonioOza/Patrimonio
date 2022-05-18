@@ -51,11 +51,11 @@
             <TextView
                 android:id="@+id/breveDescripcionFragaSestelo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
+                android:textColor="#000000"
                 android:text="Trátase dun bosque de río, atlántico, que se atopa en bo estado de conservación para desfrute da natureza."
                 android:textSize="18sp" />
 
@@ -71,7 +71,7 @@
             <TextView
                 android:id="@+id/descripcionFragaSestelo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -81,16 +81,17 @@
 Trátase dun bosque de carballos en bo estado de conservación que está atravesado por un curso de auga, o rego do Sestelo e atópase no itinerario do Camiño da Geira e dos Arrieiros. As árbores predominantes son os carballos pero existen múltiples especies arbóreas acompañantes como salgueiros, loureiros e tamén algún espiños.\n
 
 
-"
-                android:textColor="#000000"
+" android:textColor="#000000"
                 android:textSize="14sp"/>
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 

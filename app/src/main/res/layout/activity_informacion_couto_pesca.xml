@@ -51,11 +51,11 @@
             <TextView
                 android:id="@+id/breveDescripcionCoutoPescaXirimbao"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:fontFamily="casual"
+                android:textColor="#000000"
                 android:text="Trátase dun tramo do Río Ulla ao seu paso polo Xirimbao, na parroquia de Reis, onde a práctica da pesca está regulada en réxime de pesca sen morte.\n
 "
                 android:textSize="18sp" />
@@ -72,7 +72,7 @@
             <TextView
                 android:id="@+id/descripcionCoutoPescaXirimbao"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
@@ -91,10 +91,12 @@ O Couto de Couso, coa chegada do bo tempo, convértese nunha zona de esparexemen
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="362dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 
