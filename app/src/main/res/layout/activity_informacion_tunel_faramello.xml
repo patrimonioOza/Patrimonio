@@ -55,7 +55,7 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="40dp"
-                android:textColor="#000000"
+                android:textColor="#415419"
                 android:text="O túnel do Faramello, hoxe en desuso, foi unha infraestrutura levada a cabo para dar paso ao primeiro ferrocarril do noso país.\n
 "
                 android:textSize="18sp" />
