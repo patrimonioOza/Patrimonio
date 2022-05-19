@@ -57,10 +57,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="Está situado ao carón dun camiño próximo á aldea de Cornide, no límite de parroquia entre Calo e Luou. Encóntrase sinalizado e forma parte do PRG-238, Ruta dos Petróglifos de Teo. \n \n"
+                android:textColor="#415419"
+                android:text="@string/petroglifodorioangueiraoudomontedecornideTitulo"
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -78,10 +78,10 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Sitúase ao sur da aldea de Cornide a poucos metros ao leste do gravado coñecido como río Angueira 2, sobre un outeiro orientado cara ao curso do río Angueira. Os deseños localízanse no extremo norte dunha rocha de granito que presenta alteracións froito de labores de cantaría. As figuras consisten en varias combinacións circulares, compostas algunhas por varios aneis concéntricos con cazoleta central e outras por aneis simples unidos por liñas de sucos. O motivo máis visible é unha combinación complexa duns 55 cm de diámetro. \n \n
-Estas pequenas combinacións foron situadas por Acuña Castroviejo, dentro da tipoloxía de motivos «faccia-oculi», definida polo arqueólogo italiano Emmanuel Anati, que lembran dous grandes ollos. Segundo estes autores, este tipo de iconografía podería referirse a algún tipo de ídolo e terían unha función relixiosa. \n \n
-A combinación de círculos concéntricos de maior tamaño resulta visible durante a maior parte do día. Porén, o resto das figuras presentan un maior grao de erosión e recoméndase a visita á última hora da tarde, para apreciar mellor todo o panel coa axuda da luz rasante do sol.\n \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+
+                android:text="@string/petroglifodorioangueiraoudomontedecornideDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

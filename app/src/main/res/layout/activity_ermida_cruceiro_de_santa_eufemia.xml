@@ -56,11 +56,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="No lugar de Ribas, na parroquia de Oza, atópase esta capela que honra á Santa Eufemia e que é unha das ermidas máis visitadas do Concello."
+                android:textColor="#415419"
+                android:text="@string/ermidaecruceirodesantaeufemiaTitulo"
 
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -78,11 +78,8 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="Hai unha fermosa e antiga lenda galega que conta a historia dun parto múltiple sucedido en Baiona. Trátase de nove meniñas destinadas a morrer afogadas, pero que se salvaron, converténdose nas primeiras grandes santas e mártires da Igrexa. Santa Eufemia foi unha desas mártires que goza de moita tradición e devoción tanto en Galicia como en Portugal. \n \n
-A documentación histórica do Arquivo da Catedral revela a existencia desta ermida desde o ano 1547, consagrada a Santa Eufemia como mínimo desde 1775, sendo daquela a confraría máis importante da zona. O 16 de setembro é o día no que se conmemora esta beata, por iso, todos os anos, na fin de semana que segue a esa data, celébrase a romaría de Santa Eufemia, a onde centos de persoas devotas acoden a escoitar unha misa como ofrenda. \n \n
-A carón da capela atópase un cruceiro barroco, trasladado nos anos 80 dende o seu lugar orixinario ao ser este o lugar elixido para o campo da festa, e no que se le unha inscrición co nome do doante: GOMEZ A(NO) 1768. \n \n
-O Padre Pedro Nolasco Gaite Sancho foi un mercedario vinculado ó Mosteiro de Poio, que percorreu boa parte do noso territorio durante as primeiras décadas do século pasado cativando cos seus sermóns a miles de persoas freguesas das parroquias do rural galego. Os xornais da época deron conta da súa oratoria e elocuencia, mais poucos recollen datos da súa faceta como debuxante e catalogador de moitos monumentos que visitou. Hoxe consérvanse preto de 200 debuxos dos templos da Galiza máis tradicional, algúns deles desaparecidos ou moi alterados. Estes debuxos do Santuario de Santa Eufemia testemuñan o paso deste relixioso viaxeiro por esta parroquia de Oza.\n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/ermidaecruceirodesantaeufemiaDescripcion" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

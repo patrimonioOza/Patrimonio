@@ -57,11 +57,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:fontFamily="casual"
-                android:text="A carón do río Pereiro, na parroquia que dá nome ao concello, atópase este conxunto eclesiástico; a igrexa de Santa María de Teo, cruceiro e camposanto."
+                android:textColor="#415419"
+                android:text="@string/igrexadesantamariadeteoTitulo"
 
                 android:textAlignment="center"
-                android:textSize="28sp" />
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -79,11 +79,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="40dp"
-                android:text="A Igrexa de Santa María de Teo data do S. XVIII. Presenta unha virxe, na fornela central da fachada da igrexa (presumiblemente feita polo mesmo artesán que o cruceiro contiguo) e conta cun campanario dunha soa parede con dúas campás. \n \n
-Na parte posterior do edificio apenas se conservan os restos da antiga casa parroquial, unha vivenda centenaria, cunha impresionante cheminea ao estilo compostelán, que estivo habitada ata finais dos anos setenta. \n \n
-A carón da igrexa atópase un cruceiro que é, despois do cruceiro de Francos, o máis antigo do Concello. É unha creación do século XVI de tipoloxía “zuncho” (presenta unha peza que une o capitel coa cruz) e segundo os especialistas puido ser realizado por un grande santeiro que traballou en diferentes zonas da comarca de Compostela chamado “Juan de Santiago”. \n \n
-Este lugar é punto de inicio dunha ruta de sendeirismo que percorre a Ribeira do Ulla dende Teo ata a Burga de Xermeade. \n"
-                android:textSize="24sp" />
+                android:textColor="#000000"
+                android:text="@string/igrexadesantamariadeteoDescripcion"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
